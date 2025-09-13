@@ -1,0 +1,101 @@
+StudentID,Skills,Qualification,PreferredLocation,NativeLocation,SocialCategory,IsAspirationalDistrict
+1,"AI/ML, Cloud Computing, Blockchain, Data Analysis, C++",M.Sc,Hyderabad,Delhi,BC,0
+2,"AI/ML, Java, Python",Diploma,Kolkata,Chennai,OC,0
+3,"AI/ML, Python",B.Tech,Hyderabad,Kolkata,ST,0
+4,"Java, DevOps, SQL, Cloud Computing",B.Sc,Hyderabad,Pune,SC,0
+5,"Spring Boot, UI/UX Design, Cloud Computing, Django, DevOps",M.Tech,Hyderabad,Chennai,ST,0
+6,"SQL, Embedded Systems",B.Tech,Chennai,Hyderabad,BC,0
+7,"DevOps, AI/ML, Java, SQL",Diploma,Kolkata,Delhi,BC,0
+8,"AI/ML, Java, Python",B.Sc,Bangalore,Rural-Delhi,SC,0
+9,"UI/UX Design, Python, DevOps",M.Sc,Kolkata,Pune,BC,0
+10,"Machine Learning, Embedded Systems, Blockchain",B.Tech,Delhi,Rural-Bangalore,SC,0
+11,"Cybersecurity, Blockchain",B.Sc,Delhi,Kolkata,SC,0
+12,"SQL, Python",M.Tech,Bangalore,Mumbai,OC,0
+13,"Cloud Computing, Embedded Systems, SQL",Diploma,Hyderabad,Bangalore,BC,0
+14,"Embedded Systems, DevOps, SQL, Machine Learning",Diploma,Pune,Chennai,EWS,0
+15,"DevOps, Data Analysis, Machine Learning",MBA,Kolkata,Kolkata,ST,0
+16,"Machine Learning, Blockchain, Embedded Systems, Cybersecurity, DevOps",B.Tech,Pune,Rural-Hyderabad,ST,0
+17,"AI/ML, Java, C++, SQL, Django",B.Sc,Hyderabad,Rural-Hyderabad,EWS,0
+18,"React, Embedded Systems, Cybersecurity",Diploma,Chennai,Pune,EWS,0
+19,"C++, AI/ML, Machine Learning, React, Django",Diploma,Pune,Pune,OBC,0
+20,"Spring Boot, Machine Learning, Cybersecurity",Diploma,Chennai,Bangalore,OC,0
+21,"Blockchain, C++, Python, Java",B.Sc,Hyderabad,Rural-Bangalore,BC,0
+22,"DevOps, Data Analysis",Diploma,Chennai,Bangalore,OC,0
+23,"Machine Learning, Embedded Systems, Cloud Computing, Django",Diploma,Mumbai,Pune,SC,0
+24,"Blockchain, AI/ML, Cloud Computing, C++, Machine Learning",M.Tech,Bangalore,Rural-Delhi,OBC,0
+25,"UI/UX Design, Embedded Systems, DevOps, Cloud Computing",M.Sc,Kolkata,Kolkata,OC,0
+26,"Cloud Computing, Python, C++, UI/UX Design",M.Sc,Hyderabad,Delhi,OC,0
+27,"Java, Spring Boot, Machine Learning, Blockchain",MBA,Chennai,Pune,ST,0
+28,"AI/ML, Django, SQL, Embedded Systems",M.Tech,Pune,Kolkata,OBC,0
+29,"Django, UI/UX Design",B.Sc,Hyderabad,Chennai,SC,0
+30,"Data Analysis, DevOps, Blockchain",B.Tech,Pune,Mumbai,ST,0
+31,"AI/ML, Data Analysis, Spring Boot, Django",M.Sc,Mumbai,Rural-Hyderabad,ST,0
+32,"UI/UX Design, Spring Boot",Diploma,Pune,Mumbai,SC,0
+33,"UI/UX Design, Machine Learning",Diploma,Delhi,Pune,BC,0
+34,"Python, AI/ML, Django, Cybersecurity",B.Tech,Mumbai,Mumbai,ST,0
+35,"Machine Learning, Python, Cybersecurity",M.Tech,Pune,Bangalore,OC,0
+36,"Data Analysis, Embedded Systems, Java",Diploma,Bangalore,Hyderabad,OBC,0
+37,"Java, Embedded Systems, DevOps, C++, Django",M.Sc,Delhi,Bangalore,OBC,0
+38,"Embedded Systems, Python, AI/ML, DevOps",B.Sc,Pune,Delhi,OC,0
+39,"Machine Learning, AI/ML, Spring Boot, Django, Cybersecurity",MBA,Hyderabad,Bangalore,OC,0
+40,"Django, React, C++, UI/UX Design",B.Tech,Delhi,Delhi,SC,0
+41,"Blockchain, C++, React",M.Tech,Pune,Hyderabad,BC,0
+42,"DevOps, Cloud Computing, AI/ML",B.Tech,Pune,Hyderabad,SC,0
+43,"Cybersecurity, Java",B.Sc,Bangalore,Rural-Delhi,SC,0
+44,"Blockchain, Django, Cybersecurity",M.Tech,Bangalore,Rural-Mumbai,ST,0
+45,"Embedded Systems, Cloud Computing, DevOps, Java",M.Tech,Mumbai,Chennai,BC,0
+46,"Machine Learning, UI/UX Design",M.Tech,Chennai,Rural-Bangalore,EWS,0
+47,"C++, UI/UX Design, Blockchain, React",Diploma,Bangalore,Mumbai,SC,0
+48,"Java, C++, Blockchain",Diploma,Bangalore,Mumbai,OC,0
+49,"Data Analysis, AI/ML",M.Tech,Hyderabad,Kolkata,BC,0
+50,"Cybersecurity, Blockchain, Java, DevOps",Diploma,Kolkata,Rural-Hyderabad,SC,0
+51,"SQL, Java, Python, Cybersecurity, C++",B.Sc,Pune,Rural-Hyderabad,BC,0
+52,"Django, Java, React, Embedded Systems",Diploma,Mumbai,Mumbai,BC,0
+53,"SQL, Embedded Systems, DevOps",M.Tech,Chennai,Chennai,OC,0
+54,"DevOps, Django",M.Tech,Bangalore,Rural-Chennai,OC,0
+55,"Python, Embedded Systems, AI/ML",B.Tech,Mumbai,Chennai,EWS,0
+56,"Django, Cybersecurity",B.Sc,Hyderabad,Rural-Hyderabad,BC,0
+57,"Blockchain, React, AI/ML, Data Analysis",Diploma,Kolkata,Delhi,BC,0
+58,"Spring Boot, Python, Cloud Computing, C++",M.Sc,Chennai,Rural-Mumbai,ST,0
+59,"Java, Cybersecurity, Django",B.Sc,Kolkata,Bangalore,OBC,0
+60,"React, C++, Blockchain",Diploma,Chennai,Mumbai,ST,0
+61,"UI/UX Design, Java, Python, DevOps",M.Sc,Pune,Hyderabad,OBC,0
+62,"Cybersecurity, Data Analysis, Cloud Computing",Diploma,Hyderabad,Pune,EWS,0
+63,"UI/UX Design, Django, C++",B.Tech,Hyderabad,Hyderabad,BC,0
+64,"Embedded Systems, React, UI/UX Design",M.Tech,Chennai,Rural-Chennai,SC,0
+65,"Cybersecurity, DevOps, C++, Django",M.Sc,Bangalore,Chennai,OBC,0
+66,"Django, DevOps, SQL, Embedded Systems, AI/ML",MBA,Hyderabad,Bangalore,OC,0
+67,"Spring Boot, Cybersecurity, AI/ML, Python",B.Sc,Kolkata,Rural-Bangalore,OBC,0
+68,"DevOps, React",Diploma,Hyderabad,Hyderabad,ST,0
+69,"Cloud Computing, Machine Learning",M.Sc,Chennai,Kolkata,OC,0
+70,"Cloud Computing, React, C++",Diploma,Mumbai,Rural-Kolkata,EWS,0
+71,"Cloud Computing, Blockchain, Cybersecurity, Java, C++",B.Sc,Bangalore,Chennai,BC,0
+72,"UI/UX Design, Java, React, C++",M.Tech,Chennai,Pune,SC,0
+73,"Cybersecurity, Spring Boot",M.Tech,Bangalore,Rural-Delhi,BC,0
+74,"Cloud Computing, SQL, Embedded Systems, UI/UX Design",B.Tech,Kolkata,Rural-Delhi,ST,0
+75,"Cloud Computing, DevOps, Spring Boot, Embedded Systems, Python",B.Sc,Mumbai,Delhi,BC,0
+76,"Blockchain, DevOps, Cloud Computing",B.Sc,Kolkata,Delhi,BC,0
+77,"C++, AI/ML, UI/UX Design, Cybersecurity",Diploma,Kolkata,Chennai,ST,0
+78,"Cybersecurity, Data Analysis, Embedded Systems",MBA,Mumbai,Rural-Kolkata,BC,0
+79,"Data Analysis, Python",M.Tech,Bangalore,Pune,OBC,0
+80,"SQL, React, Java, DevOps, Python",MBA,Delhi,Hyderabad,BC,0
+81,"Blockchain, SQL",Diploma,Pune,Kolkata,BC,0
+82,"SQL, Cybersecurity, DevOps, Java",M.Sc,Chennai,Bangalore,OC,0
+83,"Cybersecurity, Blockchain, AI/ML, Spring Boot, Data Analysis",MBA,Kolkata,Mumbai,ST,0
+84,"Blockchain, SQL, Django",B.Tech,Chennai,Rural-Bangalore,BC,0
+85,"C++, SQL, Django, Data Analysis, Python",B.Tech,Mumbai,Delhi,OC,0
+86,"Blockchain, C++, Python, AI/ML, Django",M.Tech,Pune,Rural-Hyderabad,ST,0
+87,"SQL, C++, Java, Spring Boot, Machine Learning",B.Sc,Delhi,Rural-Hyderabad,BC,0
+88,"Java, Cloud Computing, UI/UX Design, AI/ML",M.Tech,Delhi,Pune,EWS,0
+89,"Django, Cloud Computing, Blockchain, Data Analysis",MBA,Bangalore,Chennai,ST,0
+90,"Python, AI/ML, Blockchain",B.Tech,Pune,Rural-Kolkata,SC,0
+91,"AI/ML, Cybersecurity, Embedded Systems, Django",B.Tech,Pune,Chennai,ST,0
+92,"Django, Machine Learning, Blockchain",Diploma,Bangalore,Hyderabad,SC,0
+93,"Cybersecurity, C++, Embedded Systems, Data Analysis, Django",B.Sc,Chennai,Kolkata,OBC,0
+94,"AI/ML, SQL, Cloud Computing",M.Sc,Mumbai,Mumbai,BC,0
+95,"DevOps, Data Analysis, Python",M.Tech,Kolkata,Rural-Hyderabad,OC,0
+96,"Spring Boot, Data Analysis, Cybersecurity, UI/UX Design",MBA,Mumbai,Delhi,SC,0
+97,"Django, Embedded Systems, SQL, Python",Diploma,Hyderabad,Rural-Pune,BC,0
+98,"Spring Boot, Cybersecurity, AI/ML",Diploma,Chennai,Chennai,BC,0
+99,"Data Analysis, React, Django, Cybersecurity, Java",B.Tech,Chennai,Rural-Mumbai,OC,0
+100,"Cloud Computing, Embedded Systems, UI/UX Design, C++",M.Sc,Mumbai,Rural-Delhi,BC,0

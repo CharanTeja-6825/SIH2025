@@ -1,0 +1,101 @@
+Student,BestInternship,Company,Score
+1,Business Analyst Intern,Company_47,0.684
+2,QA Tester Intern,Company_28,0.577
+3,Data Analyst Intern,Company_19,0.756
+4,AI Research Intern,Company_1,0.636
+5,UI/UX Intern,Company_45,0.74
+6,Business Analyst Intern,Company_41,0.676
+7,Data Analyst Intern,Company_87,0.556
+8,QA Tester Intern,Company_28,0.615
+9,Cloud Engineer Intern,Company_23,0.632
+10,Data Analyst Intern,Company_9,0.632
+11,Data Analyst Intern,Company_57,0.535
+12,Cloud Engineer Intern,Company_58,0.612
+13,Business Analyst Intern,Company_41,0.745
+14,Data Analyst Intern,Company_62,0.717
+15,Business Analyst Intern,Company_92,0.64
+16,Data Analyst Intern,Company_10,0.714
+17,AI Research Intern,Company_13,0.775
+18,UI/UX Intern,Company_69,0.577
+19,Data Analyst Intern,Company_62,0.655
+20,Business Analyst Intern,Company_67,0.632
+21,QA Tester Intern,Company_43,0.535
+22,Cloud Engineer Intern,Company_74,0.617
+23,Data Analyst Intern,Company_55,0.746
+24,QA Tester Intern,Company_21,0.714
+25,Cloud Engineer Intern,Company_23,0.761
+26,Cloud Engineer Intern,Company_46,0.671
+27,Cloud Engineer Intern,Company_72,0.717
+28,Software Engineer Intern,Company_37,0.783
+29,QA Tester Intern,Company_89,0.717
+30,Data Analyst Intern,Company_95,0.632
+31,Business Analyst Intern,Company_47,0.764
+32,Cloud Engineer Intern,Company_23,0.632
+33,AI Research Intern,Company_1,0.603
+34,Software Engineer Intern,Company_48,0.704
+35,UI/UX Intern,Company_86,0.589
+36,Cloud Engineer Intern,Company_75,0.667
+37,AI Research Intern,Company_29,0.745
+38,QA Tester Intern,Company_28,0.645
+39,Cloud Engineer Intern,Company_76,0.546
+40,UI/UX Intern,Company_45,0.603
+41,Data Analyst Intern,Company_95,0.548
+42,QA Tester Intern,Company_21,0.707
+43,QA Tester Intern,Company_56,0.544
+44,Cloud Engineer Intern,Company_58,0.53
+45,Data Analyst Intern,Company_2,0.632
+46,Software Engineer Intern,Company_88,0.671
+47,UI/UX Intern,Company_39,0.816
+48,UI/UX Intern,Company_26,0.5
+49,Data Analyst Intern,Company_19,0.707
+50,QA Tester Intern,Company_43,0.756
+51,QA Tester Intern,Company_43,0.504
+52,AI Research Intern,Company_14,0.572
+53,Business Analyst Intern,Company_61,0.527
+54,Cloud Engineer Intern,Company_74,0.617
+55,Software Engineer Intern,Company_48,0.778
+56,AI Research Intern,Company_13,0.596
+57,UI/UX Intern,Company_6,0.671
+58,QA Tester Intern,Company_33,0.598
+59,UI/UX Intern,Company_26,0.463
+60,UI/UX Intern,Company_83,0.433
+61,AI Research Intern,Company_1,0.667
+62,QA Tester Intern,Company_66,0.63
+63,Cloud Engineer Intern,Company_90,0.849
+64,QA Tester Intern,Company_89,0.734
+65,Cloud Engineer Intern,Company_74,0.463
+66,Software Engineer Intern,Company_37,0.746
+67,QA Tester Intern,Company_33,0.684
+68,Cloud Engineer Intern,Company_78,0.577
+69,Software Engineer Intern,Company_49,0.707
+70,Business Analyst Intern,Company_18,0.632
+71,Data Analyst Intern,Company_70,0.596
+72,QA Tester Intern,Company_89,0.756
+73,QA Tester Intern,Company_80,0.632
+74,Software Engineer Intern,Company_99,0.647
+75,Software Engineer Intern,Company_49,0.577
+76,Software Engineer Intern,Company_15,0.53
+77,Cloud Engineer Intern,Company_38,0.738
+78,UI/UX Intern,Company_69,0.645
+79,QA Tester Intern,Company_63,0.772
+80,Data Analyst Intern,Company_40,0.667
+81,Data Analyst Intern,Company_62,0.463
+82,Data Analyst Intern,Company_57,0.535
+83,Business Analyst Intern,Company_96,0.548
+84,Cloud Engineer Intern,Company_58,0.53
+85,Software Engineer Intern,Company_94,0.63
+86,UI/UX Intern,Company_65,0.645
+87,Cloud Engineer Intern,Company_72,0.684
+88,Cloud Engineer Intern,Company_84,0.639
+89,Data Analyst Intern,Company_70,0.566
+90,QA Tester Intern,Company_28,0.68
+91,Software Engineer Intern,Company_37,0.671
+92,QA Tester Intern,Company_66,0.535
+93,AI Research Intern,Company_14,0.6
+94,Business Analyst Intern,Company_18,0.539
+95,Data Analyst Intern,Company_4,0.68
+96,QA Tester Intern,Company_50,0.639
+97,Business Analyst Intern,Company_41,0.707
+98,Cloud Engineer Intern,Company_76,0.798
+99,Software Engineer Intern,Company_94,0.57
+100,Data Analyst Intern,Company_54,0.655

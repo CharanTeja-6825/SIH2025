@@ -1,0 +1,101 @@
+InternshipID,Company,Role,Sector,WorkLocation,RequiredSkills,QualificationRequired,OtherRequirements,Capacity
+1,Company_1,AI Research Intern,Telecom,Pune,"UI/UX Design, DevOps, Java, Cloud Computing, Machine Learning",M.Sc,Good communication skills,5
+2,Company_2,Data Analyst Intern,Telecom,Chennai,"Java, Cloud Computing, Embedded Systems, Machine Learning",Diploma,Leadership potential,8
+3,Company_3,Cloud Engineer Intern,Healthcare,Hyderabad,"Machine Learning, Python, AI/ML, SQL",M.Tech,Problem-solving mindset,4
+4,Company_4,Data Analyst Intern,Education,Kolkata,"Data Analysis, Blockchain, Python",M.Tech,Analytical thinking,3
+5,Company_5,QA Tester Intern,Healthcare,Hyderabad,"Blockchain, C++, UI/UX Design, DevOps",MBA,Adaptability,8
+6,Company_6,UI/UX Intern,Telecom,Pune,"Java, React, Data Analysis, AI/ML",Diploma,Team player,10
+7,Company_7,Business Analyst Intern,Education,Mumbai,"UI/UX Design, Cybersecurity",M.Tech,Adaptability,3
+8,Company_8,AI Research Intern,Finance,Chennai,"Embedded Systems, Spring Boot, UI/UX Design, Django",M.Tech,Team player,9
+9,Company_9,Data Analyst Intern,Finance,Bangalore,"Machine Learning, React, Embedded Systems, AI/ML",B.Sc,Analytical thinking,3
+10,Company_10,Data Analyst Intern,Manufacturing,Hyderabad,"Embedded Systems, Machine Learning, DevOps, Django, C++",B.Tech,Adaptability,6
+11,Company_11,Software Engineer Intern,Automotive,Mumbai,"Java, C++, Machine Learning",M.Tech,Team player,3
+12,Company_12,Cloud Engineer Intern,Education,Delhi,"DevOps, React, Data Analysis, C++, Spring Boot",B.Sc,Leadership potential,2
+13,Company_13,AI Research Intern,Education,Hyderabad,"AI/ML, Django",M.Sc,Leadership potential,5
+14,Company_14,AI Research Intern,Finance,Mumbai,"Embedded Systems, Java, Data Analysis, Django, Spring Boot",M.Sc,Team player,8
+15,Company_15,Software Engineer Intern,Software,Delhi,"C++, Cloud Computing",Diploma,Good communication skills,7
+16,Company_16,Software Engineer Intern,Automotive,Pune,"React, Java, Spring Boot",B.Tech,Analytical thinking,8
+17,Company_17,UI/UX Intern,Software,Pune,"Cybersecurity, Blockchain, Django, Embedded Systems, Java",MBA,Good communication skills,2
+18,Company_18,Business Analyst Intern,Manufacturing,Mumbai,"Cloud Computing, Django",Diploma,Adaptability,3
+19,Company_19,Data Analyst Intern,Manufacturing,Kolkata,"AI/ML, C++",B.Tech,Problem-solving mindset,10
+20,Company_20,Cloud Engineer Intern,Automotive,Kolkata,"C++, Machine Learning",M.Tech,Team player,3
+21,Company_21,QA Tester Intern,Finance,Bangalore,"AI/ML, Blockchain, DevOps, Cloud Computing",B.Tech,Adaptability,8
+22,Company_22,AI Research Intern,Manufacturing,Pune,"Cybersecurity, UI/UX Design, DevOps",M.Tech,Good communication skills,5
+23,Company_23,Cloud Engineer Intern,Education,Kolkata,"Spring Boot, C++, DevOps, Embedded Systems, UI/UX Design",M.Sc,Leadership potential,7
+24,Company_24,Business Analyst Intern,Manufacturing,Pune,"C++, Data Analysis, Cybersecurity",B.Sc,Adaptability,4
+25,Company_25,AI Research Intern,Automotive,Bangalore,"SQL, React, Cybersecurity",M.Tech,Adaptability,10
+26,Company_26,UI/UX Intern,Automotive,Delhi,"Django, Cybersecurity, Java, Blockchain",Diploma,Analytical thinking,1
+27,Company_27,Cloud Engineer Intern,Manufacturing,Hyderabad,"DevOps, Data Analysis, SQL",MBA,Problem-solving mindset,1
+28,Company_28,QA Tester Intern,Education,Kolkata,"AI/ML, DevOps, Python",B.Sc,Analytical thinking,10
+29,Company_29,AI Research Intern,Education,Delhi,"Django, Embedded Systems",M.Sc,Team player,5
+30,Company_30,Software Engineer Intern,Finance,Bangalore,"AI/ML, Cybersecurity, Embedded Systems",B.Sc,Problem-solving mindset,4
+31,Company_31,AI Research Intern,Healthcare,Kolkata,"AI/ML, React, Java",MBA,Team player,8
+32,Company_32,Business Analyst Intern,Telecom,Bangalore,"Spring Boot, Blockchain, React, Embedded Systems",B.Sc,Adaptability,4
+33,Company_33,QA Tester Intern,Automotive,Chennai,"Spring Boot, AI/ML, Python",B.Sc,Good communication skills,9
+34,Company_34,Business Analyst Intern,Telecom,Pune,"Java, Machine Learning",Diploma,Good communication skills,6
+35,Company_35,Business Analyst Intern,Finance,Pune,"Machine Learning, Java, Cloud Computing, AI/ML",M.Sc,Problem-solving mindset,8
+36,Company_36,Business Analyst Intern,Automotive,Hyderabad,"DevOps, C++, Embedded Systems, Cybersecurity, React",M.Sc,Problem-solving mindset,9
+37,Company_37,Software Engineer Intern,Software,Hyderabad,"SQL, Django, Embedded Systems, AI/ML",B.Tech,Team player,9
+38,Company_38,Cloud Engineer Intern,Manufacturing,Chennai,"UI/UX Design, AI/ML, C++, Data Analysis",Diploma,Problem-solving mindset,7
+39,Company_39,UI/UX Intern,Education,Bangalore,"C++, Blockchain, UI/UX Design",B.Sc,Analytical thinking,2
+40,Company_40,Data Analyst Intern,Finance,Delhi,"React, Java",MBA,Team player,2
+41,Company_41,Business Analyst Intern,Automotive,Hyderabad,"Embedded Systems, C++, SQL",Diploma,Leadership potential,1
+42,Company_42,QA Tester Intern,Education,Pune,"AI/ML, DevOps, Machine Learning, Blockchain, Python",M.Sc,Good communication skills,7
+43,Company_43,QA Tester Intern,Manufacturing,Hyderabad,"Java, Cybersecurity, DevOps, Blockchain, Python",Diploma,Analytical thinking,7
+44,Company_44,QA Tester Intern,Software,Bangalore,"UI/UX Design, Spring Boot, Django",M.Tech,Adaptability,3
+45,Company_45,UI/UX Intern,Manufacturing,Hyderabad,"React, Django, UI/UX Design, Cloud Computing",B.Tech,Team player,3
+46,Company_46,Cloud Engineer Intern,Education,Bangalore,"SQL, Cloud Computing, UI/UX Design",M.Sc,Leadership potential,4
+47,Company_47,Business Analyst Intern,Finance,Hyderabad,"Django, AI/ML, Data Analysis",B.Sc,Analytical thinking,5
+48,Company_48,Software Engineer Intern,Healthcare,Mumbai,"Embedded Systems, React, Python, Cybersecurity, AI/ML",B.Tech,Leadership potential,6
+49,Company_49,Software Engineer Intern,Automotive,Chennai,"Python, Cloud Computing, Machine Learning, Embedded Systems",B.Sc,Team player,4
+50,Company_50,QA Tester Intern,Education,Chennai,"UI/UX Design, Data Analysis, Spring Boot, Blockchain",Diploma,Team player,5
+51,Company_51,UI/UX Intern,Software,Bangalore,"Python, Cybersecurity",Diploma,Good communication skills,1
+52,Company_52,Business Analyst Intern,Automotive,Pune,"Cloud Computing, SQL, Cybersecurity",B.Tech,Analytical thinking,2
+53,Company_53,Cloud Engineer Intern,Education,Mumbai,"Cybersecurity, Python, React",MBA,Good communication skills,8
+54,Company_54,Data Analyst Intern,Finance,Delhi,"Embedded Systems, UI/UX Design, C++",MBA,Adaptability,8
+55,Company_55,Data Analyst Intern,Healthcare,Pune,"Django, Embedded Systems, SQL, Cloud Computing",Diploma,Team player,9
+56,Company_56,QA Tester Intern,Telecom,Bangalore,"Java, Spring Boot, React",B.Sc,Good communication skills,3
+57,Company_57,Data Analyst Intern,Software,Bangalore,"SQL, Cybersecurity, Spring Boot, Blockchain",M.Sc,Problem-solving mindset,1
+58,Company_58,Cloud Engineer Intern,Software,Mumbai,"SQL, Blockchain",M.Tech,Team player,8
+59,Company_59,QA Tester Intern,Education,Kolkata,"Spring Boot, Data Analysis, Python",M.Sc,Team player,9
+60,Company_60,AI Research Intern,Automotive,Delhi,"Machine Learning, C++, Spring Boot, Blockchain, Cloud Computing",MBA,Adaptability,9
+61,Company_61,Business Analyst Intern,Finance,Chennai,"Cybersecurity, SQL, DevOps, Machine Learning, AI/ML",B.Tech,Team player,10
+62,Company_62,Data Analyst Intern,Finance,Pune,"DevOps, Machine Learning, SQL, React",Diploma,Leadership potential,10
+63,Company_63,QA Tester Intern,Telecom,Pune,"Python, React, Data Analysis",B.Tech,Team player,10
+64,Company_64,Software Engineer Intern,Education,Kolkata,"Embedded Systems, Cloud Computing",MBA,Adaptability,1
+65,Company_65,UI/UX Intern,Finance,Hyderabad,"SQL, Blockchain, AI/ML",M.Tech,Adaptability,4
+66,Company_66,QA Tester Intern,Automotive,Hyderabad,"Machine Learning, Cloud Computing, Cybersecurity",Diploma,Analytical thinking,9
+67,Company_67,Business Analyst Intern,Automotive,Delhi,"Machine Learning, Spring Boot, DevOps, Embedded Systems, Cybersecurity",Diploma,Team player,6
+68,Company_68,AI Research Intern,Software,Kolkata,"Cybersecurity, UI/UX Design, C++, Blockchain, SQL",MBA,Analytical thinking,1
+69,Company_69,UI/UX Intern,Telecom,Kolkata,"React, Cybersecurity, Embedded Systems, C++",MBA,Problem-solving mindset,3
+70,Company_70,Data Analyst Intern,Software,Chennai,"Cybersecurity, C++, Cloud Computing",MBA,Leadership potential,7
+71,Company_71,Business Analyst Intern,Education,Kolkata,"Embedded Systems, Blockchain, React, AI/ML, Machine Learning",Diploma,Good communication skills,5
+72,Company_72,Cloud Engineer Intern,Automotive,Chennai,"Machine Learning, Spring Boot, Java",B.Sc,Leadership potential,8
+73,Company_73,UI/UX Intern,Automotive,Chennai,"Python, Cloud Computing",B.Tech,Problem-solving mindset,8
+74,Company_74,Cloud Engineer Intern,Manufacturing,Bangalore,"DevOps, Django, Data Analysis",M.Tech,Analytical thinking,2
+75,Company_75,Cloud Engineer Intern,Automotive,Bangalore,"Data Analysis, Machine Learning, Embedded Systems, Java",B.Sc,Adaptability,4
+76,Company_76,Cloud Engineer Intern,Automotive,Chennai,"Django, C++, Spring Boot, AI/ML",Diploma,Good communication skills,3
+77,Company_77,Cloud Engineer Intern,Finance,Hyderabad,"Embedded Systems, Cloud Computing, UI/UX Design, React, Machine Learning",M.Tech,Leadership potential,10
+78,Company_78,Cloud Engineer Intern,Telecom,Hyderabad,"React, C++, Cybersecurity, Spring Boot",Diploma,Leadership potential,7
+79,Company_79,Data Analyst Intern,Manufacturing,Chennai,"SQL, UI/UX Design, AI/ML, C++, Spring Boot",B.Tech,Leadership potential,3
+80,Company_80,QA Tester Intern,Telecom,Bangalore,"SQL, Spring Boot",M.Tech,Team player,4
+81,Company_81,QA Tester Intern,Telecom,Hyderabad,"SQL, C++, DevOps, AI/ML",M.Sc,Problem-solving mindset,5
+82,Company_82,QA Tester Intern,Telecom,Pune,"Blockchain, Embedded Systems",MBA,Analytical thinking,8
+83,Company_83,UI/UX Intern,Finance,Chennai,"React, UI/UX Design, Blockchain, Java",MBA,Adaptability,1
+84,Company_84,Cloud Engineer Intern,Finance,Hyderabad,"AI/ML, Blockchain, UI/UX Design, Cloud Computing",Diploma,Team player,6
+85,Company_85,Software Engineer Intern,Automotive,Bangalore,"Python, SQL, UI/UX Design, C++, Django",M.Tech,Leadership potential,3
+86,Company_86,UI/UX Intern,Telecom,Bangalore,"Cybersecurity, SQL, React, Machine Learning, Data Analysis",B.Tech,Good communication skills,4
+87,Company_87,Data Analyst Intern,Education,Delhi,"Python, Spring Boot, SQL, AI/ML, Java",M.Tech,Analytical thinking,9
+88,Company_88,Software Engineer Intern,Manufacturing,Chennai,"Machine Learning, Python, UI/UX Design",M.Sc,Leadership potential,10
+89,Company_89,QA Tester Intern,Software,Chennai,"UI/UX Design, Python, React",B.Sc,Adaptability,4
+90,Company_90,Cloud Engineer Intern,Manufacturing,Hyderabad,"C++, UI/UX Design",M.Tech,Adaptability,5
+91,Company_91,AI Research Intern,Education,Hyderabad,"React, Python, Embedded Systems",M.Tech,Problem-solving mindset,8
+92,Company_92,Business Analyst Intern,Education,Kolkata,"Machine Learning, Data Analysis, AI/ML",B.Sc,Team player,9
+93,Company_93,Data Analyst Intern,Education,Bangalore,"DevOps, Cloud Computing, Data Analysis, UI/UX Design",M.Tech,Problem-solving mindset,2
+94,Company_94,Software Engineer Intern,Manufacturing,Mumbai,"C++, Django, Data Analysis, Cybersecurity, SQL",Diploma,Adaptability,8
+95,Company_95,Data Analyst Intern,Manufacturing,Hyderabad,"Blockchain, Data Analysis",B.Tech,Problem-solving mindset,2
+96,Company_96,Business Analyst Intern,Software,Pune,"Java, Data Analysis, Spring Boot, Django, AI/ML",M.Sc,Problem-solving mindset,2
+97,Company_97,Cloud Engineer Intern,Finance,Pune,"Blockchain, Spring Boot, C++",B.Sc,Leadership potential,5
+98,Company_98,UI/UX Intern,Manufacturing,Delhi,"Blockchain, Python",B.Tech,Analytical thinking,4
+99,Company_99,Software Engineer Intern,Finance,Delhi,"Embedded Systems, Cloud Computing, SQL, Django, Cybersecurity",B.Tech,Good communication skills,8
+100,Company_100,AI Research Intern,Automotive,Hyderabad,"UI/UX Design, Blockchain, Cybersecurity, Machine Learning",M.Tech,Leadership potential,8
