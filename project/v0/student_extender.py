@@ -39,6 +39,7 @@ skills = ["Python", "Java", "C++", "Machine Learning", "Deep Learning", "SQL", "
           "Data Analysis"]
 qualifications = ["B.Tech", "M.Tech", "MBA", "B.Sc", "MCA"]
 social_categories = ["OC", "BC", "SC", "ST", "SBC"]
+participation_statuses = ["Rejected", "New", "Benefitted"]  # <-- Added
 
 students_data = []
 
@@ -57,7 +58,8 @@ for i in range(100):
         "location_preferences": random.choice([state, "Remote", "Any"]),
         "native_location": native_location,
         "social_category": random.choice(social_categories),
-        "is_aspirational": is_asp
+        "is_aspirational": is_asp,
+        "participation_status": random.choice(participation_statuses)  # <-- Added
     }
     students_data.append(student)
 
@@ -65,4 +67,4 @@ for i in range(100):
 students_diverse_districts = pd.DataFrame(students_data)
 students_diverse_districts.to_csv("./students_diverse_districts.csv", index=False)
 
-students_diverse_districts.head(10)
+print(students_diverse_districts.head(10))

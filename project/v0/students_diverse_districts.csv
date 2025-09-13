@@ -1,0 +1,101 @@
+student_id,skills,qualifications,location_preferences,native_location,social_category,is_aspirational,participation_status
+S001,Deep Learning,M.Tech,Any,"Gaya, Bihar",OC,1,Rejected
+S002,Java,B.Tech,Remote,"Nandurbar, Maharashtra",SC,1,New
+S003,C++,M.Tech,Remote,"Visakhapatnam, Andhra Pradesh",SC,0,New
+S004,Java,B.Sc,Maharashtra,"Pune, Maharashtra",OC,0,Benefitted
+S005,Machine Learning,MBA,Any,"Hyderabad, Telangana",SC,0,Benefitted
+S006,Angular,B.Sc,Remote,"Gaya, Bihar",ST,1,Rejected
+S007,Java,B.Sc,Remote,"Mewat, Haryana",SC,1,Rejected
+S008,Java,M.Tech,Remote,"Visakhapatnam, Andhra Pradesh",BC,0,Benefitted
+S009,Data Analysis,M.Tech,Remote,"Nuh, Haryana",ST,1,Benefitted
+S010,Data Analysis,M.Tech,Any,"Barmer, Rajasthan",SC,1,New
+S011,Angular,B.Sc,Any,"Mewat, Haryana",ST,1,Benefitted
+S012,C++,M.Tech,Bihar,"Gaya, Bihar",OC,1,Rejected
+S013,C++,M.Tech,Uttar Pradesh,"Varanasi, Uttar Pradesh",BC,0,Rejected
+S014,Deep Learning,MCA,Remote,"Kalahandi, Odisha",OC,1,Benefitted
+S015,Data Analysis,B.Tech,Telangana,"Hyderabad, Telangana",SC,0,Benefitted
+S016,Angular,B.Sc,Remote,"Chennai, Tamil Nadu",SC,0,Benefitted
+S017,Java,MCA,Maharashtra,"Nandurbar, Maharashtra",BC,1,Rejected
+S018,Data Analysis,MBA,Remote,"Varanasi, Uttar Pradesh",OC,0,New
+S019,React,B.Tech,Remote,"Bengaluru, Karnataka",SC,0,Rejected
+S020,Java,B.Sc,Remote,"Pune, Maharashtra",OC,0,New
+S021,Spring Boot,M.Tech,Karnataka,"Bengaluru, Karnataka",SC,0,Rejected
+S022,Angular,B.Tech,Tamil Nadu,"Coimbatore, Tamil Nadu",SBC,0,Rejected
+S023,Machine Learning,MBA,Any,"Pune, Maharashtra",ST,0,Rejected
+S024,Machine Learning,B.Sc,Chhattisgarh,"Dantewada, Chhattisgarh",SC,1,Rejected
+S025,SQL,B.Sc,Kerala,"Kochi, Kerala",SC,0,New
+S026,React,M.Tech,Remote,"Bengaluru, Karnataka",ST,0,Rejected
+S027,Java,B.Sc,Any,"Hyderabad, Telangana",OC,0,Benefitted
+S028,Angular,MCA,Any,"Hyderabad, Telangana",SC,0,Benefitted
+S029,Java,MCA,Rajasthan,"Jaipur, Rajasthan",SBC,0,Benefitted
+S030,Spring Boot,B.Tech,Any,"Varanasi, Uttar Pradesh",OC,0,Rejected
+S031,Data Analysis,B.Sc,Madhya Pradesh,"Bhopal, Madhya Pradesh",SC,0,Rejected
+S032,Python,MBA,Remote,"Barmer, Rajasthan",ST,1,New
+S033,SQL,MCA,Remote,"Lucknow, Uttar Pradesh",ST,0,New
+S034,SQL,MBA,Any,"Varanasi, Uttar Pradesh",ST,0,Rejected
+S035,Python,M.Tech,Maharashtra,"Pune, Maharashtra",ST,0,Benefitted
+S036,Deep Learning,M.Tech,Any,"Kalahandi, Odisha",SC,1,Benefitted
+S037,Angular,MBA,Maharashtra,"Nagpur, Maharashtra",BC,0,Rejected
+S038,Python,B.Tech,Any,"Bengaluru, Karnataka",SBC,0,Rejected
+S039,SQL,MCA,Remote,"Nandurbar, Maharashtra",BC,1,Benefitted
+S040,Python,MCA,Bihar,"Gaya, Bihar",SBC,1,Rejected
+S041,Data Analysis,B.Tech,Uttar Pradesh,"Lucknow, Uttar Pradesh",BC,0,Rejected
+S042,Deep Learning,B.Tech,Remote,"Coimbatore, Tamil Nadu",SBC,0,Rejected
+S043,Java,B.Tech,Any,"Patna, Bihar",BC,0,Benefitted
+S044,SQL,B.Tech,Madhya Pradesh,"Dhar, Madhya Pradesh",SBC,1,Benefitted
+S045,Deep Learning,MCA,Odisha,"Kalahandi, Odisha",SBC,1,Rejected
+S046,Machine Learning,B.Sc,Tamil Nadu,"Chennai, Tamil Nadu",SBC,0,Benefitted
+S047,Java,B.Tech,Any,"Dantewada, Chhattisgarh",ST,1,Rejected
+S048,Angular,B.Sc,Tamil Nadu,"Coimbatore, Tamil Nadu",SBC,0,New
+S049,C++,MCA,Haryana,"Nuh, Haryana",ST,1,Benefitted
+S050,SQL,MCA,Any,"Pune, Maharashtra",ST,0,New
+S051,Data Analysis,B.Tech,Bihar,"Gaya, Bihar",SBC,1,New
+S052,Java,MBA,Any,"Rajgarh, Madhya Pradesh",SC,1,New
+S053,SQL,B.Sc,Remote,"Kalahandi, Odisha",OC,1,Rejected
+S054,Deep Learning,B.Tech,Any,"Nagpur, Maharashtra",ST,0,Rejected
+S055,SQL,B.Sc,Kerala,"Kochi, Kerala",SBC,0,Benefitted
+S056,Python,B.Tech,Kerala,"Kochi, Kerala",SC,0,Rejected
+S057,Angular,M.Tech,Any,"Bengaluru, Karnataka",ST,0,Rejected
+S058,Java,MBA,Any,"Mewat, Haryana",OC,1,Benefitted
+S059,SQL,MBA,Andhra Pradesh,"Visakhapatnam, Andhra Pradesh",SBC,0,Rejected
+S060,C++,B.Sc,Remote,"Nuh, Haryana",SC,1,New
+S061,React,MCA,Any,"Nagpur, Maharashtra",ST,0,New
+S062,Spring Boot,M.Tech,Rajasthan,"Jaipur, Rajasthan",OC,0,Benefitted
+S063,Java,MBA,Maharashtra,"Nagpur, Maharashtra",OC,0,New
+S064,Data Analysis,B.Sc,Karnataka,"Bengaluru, Karnataka",BC,0,Rejected
+S065,Deep Learning,M.Tech,Any,"Gaya, Bihar",SBC,1,Benefitted
+S066,Deep Learning,M.Tech,Any,"Nagpur, Maharashtra",ST,0,Benefitted
+S067,Java,MBA,Uttar Pradesh,"Varanasi, Uttar Pradesh",SBC,0,New
+S068,Deep Learning,B.Sc,Any,"Chennai, Tamil Nadu",BC,0,New
+S069,Python,B.Sc,Madhya Pradesh,"Rajgarh, Madhya Pradesh",BC,1,New
+S070,Angular,B.Tech,Remote,"Mumbai, Maharashtra",OC,0,Rejected
+S071,Python,MBA,Remote,"Bengaluru, Karnataka",OC,0,Benefitted
+S072,Java,B.Tech,Andhra Pradesh,"Visakhapatnam, Andhra Pradesh",ST,0,New
+S073,Angular,M.Tech,Remote,"Nandurbar, Maharashtra",SC,1,New
+S074,Spring Boot,B.Tech,Odisha,"Kalahandi, Odisha",SC,1,Benefitted
+S075,Machine Learning,M.Tech,Any,"Visakhapatnam, Andhra Pradesh",BC,0,Benefitted
+S076,Angular,B.Tech,Madhya Pradesh,"Dhar, Madhya Pradesh",BC,1,Rejected
+S077,React,MBA,Remote,"Lucknow, Uttar Pradesh",BC,0,Benefitted
+S078,Machine Learning,B.Sc,Bihar,"Patna, Bihar",ST,0,Benefitted
+S079,Python,MCA,Bihar,"Gaya, Bihar",OC,1,Rejected
+S080,Java,B.Tech,Bihar,"Patna, Bihar",ST,0,Rejected
+S081,Angular,M.Tech,Karnataka,"Bengaluru, Karnataka",SBC,0,Rejected
+S082,Java,M.Tech,Karnataka,"Mysuru, Karnataka",BC,0,New
+S083,Deep Learning,M.Tech,Bihar,"Gaya, Bihar",BC,1,New
+S084,Data Analysis,M.Tech,Remote,"Rajgarh, Madhya Pradesh",ST,1,Rejected
+S085,Spring Boot,MBA,Remote,"Pune, Maharashtra",OC,0,Rejected
+S086,Data Analysis,B.Sc,Maharashtra,"Nandurbar, Maharashtra",SC,1,Rejected
+S087,C++,B.Sc,Andhra Pradesh,"Visakhapatnam, Andhra Pradesh",OC,0,New
+S088,Python,B.Sc,Remote,"Mumbai, Maharashtra",BC,0,New
+S089,React,MBA,Any,"Hyderabad, Telangana",SBC,0,Rejected
+S090,Data Analysis,M.Tech,Any,"Mumbai, Maharashtra",SC,0,Benefitted
+S091,C++,M.Tech,Any,"Nagpur, Maharashtra",OC,0,Benefitted
+S092,Java,B.Tech,Any,"Patna, Bihar",SBC,0,Rejected
+S093,Java,B.Sc,Any,"Kalahandi, Odisha",SBC,1,Benefitted
+S094,Deep Learning,MCA,Remote,"Koraput, Odisha",SC,1,Rejected
+S095,C++,MBA,Any,"Kalahandi, Odisha",SBC,1,New
+S096,Python,M.Tech,Karnataka,"Bengaluru, Karnataka",SBC,0,Benefitted
+S097,Machine Learning,M.Tech,Any,"Gaya, Bihar",BC,1,New
+S098,Data Analysis,MCA,Maharashtra,"Nagpur, Maharashtra",OC,0,Benefitted
+S099,Python,MCA,Odisha,"Kalahandi, Odisha",OC,1,Rejected
+S100,C++,B.Tech,Any,"Dhar, Madhya Pradesh",ST,1,Rejected
