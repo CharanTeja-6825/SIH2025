@@ -1,4 +1,4 @@
-student_id,skills,qualifications,location_preferences,native_location,social_category,is_aspirational,participation_status
+applicant_id,skills,qualifications,location_preferences,native_location,social_category,is_aspirational,participation_status
 S001,Deep Learning,M.Tech,Any,"Gaya, Bihar",OC,1,Rejected
 S002,Java,B.Tech,Remote,"Nandurbar, Maharashtra",SC,1,New
 S003,C++,M.Tech,Remote,"Visakhapatnam, Andhra Pradesh",SC,0,New

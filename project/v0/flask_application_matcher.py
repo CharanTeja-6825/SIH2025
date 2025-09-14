@@ -1,20 +1,24 @@
+import os
 from flask import Flask, request, jsonify
 import torch
 import torch.nn as nn
 import pandas as pd
-from sklearn.feature_extraction.text import CountVectorizer
 from pymongo import MongoClient
-import os
+from sklearn.feature_extraction.text import CountVectorizer
+from bson import ObjectId
 
 app = Flask(__name__)
 
 # -------------------------------
-# 1. MongoDB Setup
+# 1. MongoDB Connection
 # -------------------------------
-MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://root:root@laxman.xmhzqpt.mongodb.net/PmInternshipScheme?retryWrites=true&w=majority&appName=laxman")
+MONGO_URI = os.getenv(
+    "MONGO_URI",
+    "mongodb+srv://root:root@laxman.xmhzqpt.mongodb.net/PmInternshipScheme?retryWrites=true&w=majority&appName=laxman"
+)
 client = MongoClient(MONGO_URI, tls=True, tlsAllowInvalidCertificates=True)
-db = client["PmInternshipScheme"]          # database name
-allocations_col = db["allocations"]   # collection name
+db = client["PmInternshipScheme"]
+allocations_col = db["allocations"]
 
 # -------------------------------
 # 2. Load internships dataset once
@@ -60,7 +64,20 @@ rural_districts = {
 }
 
 # -------------------------------
-# 4. Routes
+# 4. Utils
+# -------------------------------
+def clean_for_json(docs):
+    """Convert ObjectId to string recursively for JSON serialization"""
+    if isinstance(docs, list):
+        return [clean_for_json(d) for d in docs]
+    if isinstance(docs, dict):
+        return {k: clean_for_json(v) for k, v in docs.items()}
+    if isinstance(docs, ObjectId):
+        return str(docs)
+    return docs
+
+# -------------------------------
+# 5. Routes
 # -------------------------------
 @app.route("/test", methods=["GET"])
 def test_route():
@@ -69,24 +86,37 @@ def test_route():
 
 @app.route("/match", methods=["POST"])
 def match_opportunities():
-    data = request.json  # student details
+    data = request.json
+    applicant_id = data.get("applicant_id")
+
+    if not applicant_id:
+        return jsonify({"error": "applicant_id is required"}), 400
 
     # -------------------------------
-    # Build text profile
+    # Step 1: Check if allocations already exist for applicant
     # -------------------------------
-    skills_str = " ".join(data["skills"]) if isinstance(data["skills"], list) else str(data["skills"])
-    profile = f"{skills_str} {data['qualifications']} {data['location_preferences']} {data['native_location']} {data['social_category']}"
+    existing_allocations = list(allocations_col.find({"applicant_id": applicant_id}))
+    if existing_allocations:
+        return jsonify(clean_for_json(existing_allocations))  # return stored data directly
 
+    # -------------------------------
+    # Step 2: Build text profile
+    # -------------------------------
+    skills = data.get("skills", [])
+    skills_str = " ".join(skills) if isinstance(skills, list) else str(skills)
+
+    profile = f"{skills_str} {data.get('qualifications','')} {data.get('location_preferences','')} {data.get('native_location','')} {data.get('social_category','')}"
     student_vec = torch.tensor(
         vectorizer.transform([profile]).toarray(),
         dtype=torch.float32
     )
+
     similarities = cos(student_vec, internship_vecs).detach().numpy().flatten()
 
     # -------------------------------
-    # Extract district, state
+    # Extract district, state safely
     # -------------------------------
-    native_parts = [p.strip() for p in data["native_location"].split(",")]
+    native_parts = [p.strip() for p in data.get("native_location", "").split(",")]
     district, state = (native_parts[0], native_parts[1]) if len(native_parts) == 2 else ("", "")
 
     is_aspirational = (district, state) in aspirational_districts
@@ -96,10 +126,13 @@ def match_opportunities():
     for i, score in enumerate(similarities):
         final_score = score
 
-        # Affirmative action bonuses
-        if data["social_category"] in ["SC", "ST"]:
+        # -------------------------------
+        # Apply Affirmative Action Bonuses
+        # -------------------------------
+        sc = data.get("social_category", "")
+        if sc in ["SC", "ST"]:
             final_score += 0.15
-        elif data["social_category"] in ["OBC", "BC", "SBC", "EWS"]:
+        elif sc in ["OBC", "BC", "SBC", "EWS"]:
             final_score += 0.10
 
         if is_aspirational:
@@ -107,8 +140,10 @@ def match_opportunities():
         if is_rural:
             final_score += 0.05
 
-        # Participation priority
-        status = data["participation_status"]
+        # -------------------------------
+        # Apply Participation Priority
+        # -------------------------------
+        status = data.get("participation_status", "")
         if status == "Rejected":
             final_score += 0.15
         elif status == "New":
@@ -116,31 +151,30 @@ def match_opportunities():
         elif status == "Benefitted":
             final_score += 0.00
 
-        final_score = min(final_score, 1.0)  # clamp
+        # Clamp score
+        final_score = min(final_score, 1.0)
 
-        if final_score >= 0.75:
+        if final_score >= 0.6:
             results.append({
-                "student_id": data.get("student_id", None),   # optional if passed
+                "applicant_id": applicant_id,
                 "internship": internships.iloc[i]["Role"],
                 "company": internships.iloc[i]["Company"],
                 "raw_similarity": round(float(score), 3),
                 "final_score": round(float(final_score), 3),
                 "is_aspirational": is_aspirational,
-                "is_rural": is_rural,
-                "social_category": data["social_category"],
-                "participation_status": data["participation_status"]
+                "is_rural": is_rural
             })
 
     # Sort by final score
     results = sorted(results, key=lambda x: x["final_score"], reverse=True)
 
     # -------------------------------
-    # Store in MongoDB
+    # Step 3: Save new allocations
     # -------------------------------
     if results:
         allocations_col.insert_many(results)
 
-    return jsonify({"status": "stored", "count": len(results)})
+    return jsonify(clean_for_json(results))
 
 
 if __name__ == "__main__":
